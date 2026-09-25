@@ -38,7 +38,7 @@ python -m pip install kafka-python
 
 1. Use your UIC NetID to create a secure SSH tunnel to the Kafka server:
 
-   `ssh -o ServerAliveInterval=60 -L 9092:localhost:9092 <NetID>@cs544-f26.cs.uic.edu -NTf`
+   `ssh -o ServerAliveInterval=60 -L 9092:localhost:9092 lmanso3@cs544-f26.cs.uic.edu -NTf`
 
    Replace `<NetID>` with your UIC NetID and enter your NetID password when prompted. Keep the SSH tunnel active while completing the lab.
 
